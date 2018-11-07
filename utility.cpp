@@ -21,8 +21,16 @@ bool isOdd(int x)
 		return false;
 	}
 }
-bool isEven(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+bool isEven(int x)
+{
+	if (x % 2)
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
 }
 bool isPrime(int x) { 
   return false;  // REPLACE THIS STUB WITH REAL CODE
