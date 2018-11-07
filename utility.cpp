@@ -32,6 +32,19 @@ bool isEven(int x)
 		return true;
 	}
 }
-bool isPrime(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+bool isPrime(int x)
+{	
+	if (x < 2)
+	{
+		return false;
+	}
+	bool isPrime = true;
+	for (int i = 2; i <= x/2; i++)
+	{
+		if (x % i == 0)
+		{
+			isPrime = false;
+		}
+	}
+	return isPrime;
 }

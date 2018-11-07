@@ -4,6 +4,15 @@
 
 #include "utility.h"
 
-int sumOdds(int a[], int size) {
-  return -42; // STUB!  Replace with correct code.
+int sumOdds(int a[], int size)
+{
+	int total = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (isOdd(a[i]) == true)
+		{
+			total+= a[i];
+		}
+	}
+	return total;
 }
