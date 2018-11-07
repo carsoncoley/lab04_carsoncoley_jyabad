@@ -10,8 +10,16 @@
 // then be sure to  #include "utility.h" in the file where you use
 // these functions
 
-bool isOdd(int x) { 
-  return false;  // REPLACE THIS STUB WITH REAL CODE
+bool isOdd(int x)
+{ 
+	if (x % 2)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 bool isEven(int x) { 
   return false;  // REPLACE THIS STUB WITH REAL CODE
